@@ -14,19 +14,19 @@ This method automatically toggles the ACCEPTED boolean type from true to false
 # POST
 Post credentials to database for the user login and signup page with jsonwebtoken sign and verify methods to verify the user credentials
 The Influencers model required the following attributes; 
-id:type:Number,
-name:type:String,
-email:type:String,
+### id:type:Number,
+### name:type:String,
+### email:type:String,
       unique:true,
       required:true
-password:type:String,
+### password:type:String,
         required:true,
-blogPost:type:String,
+### blogPost:type:String,
         default:'tiktok//link.com',
-postCount:type:Number,
+### postCount:type:Number,
         default:10,
-submissionDate:type:Date,
+### submissionDate:type:Date,
         default:Date.now,
-Accepted:type:Boolean,
+### Accepted:type:Boolean,
         default:false,
   
